@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "grapplinghook",
+  "version": "${version}",
+  "name": "Grappling Hook",
+  "description": "Adds two separate hooks: a Pull Hook that reels you to where you're looking, and a Swing Hook that lets you swing like a pendulum.",
+  "authors": [
+    "You"
+  ],
+  "contact": {},
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.grapplinghook.GrapplingHookMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
